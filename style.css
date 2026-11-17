@@ -1,0 +1,77 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #000000;
+  height: 100%;
+}
+
+.container {
+  max-width: 600px;
+  max-height: 800px;
+  overflow: auto;
+}
+
+svg {
+  display: block;
+}
+
+.bucket {
+  fill: rgb(172, 167, 243);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.node {
+  fill: rgb(60, 98, 223);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.node:hover {
+  fill: rgb(0, 255, 255) !important;
+}
+
+line {
+  stroke: rgb(252, 0, 63);
+  stroke-width: 10;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 4px;
+  background: lightyellow;
+  border: 1px solid #dda;
+  border-radius: 4px;
+}
+
+.control-panel {
+  display: inline-block;
+}
+
+.control-panel input[type="text"] {
+  padding: 8px;
+  margin: 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 150px;
+}
+
+.control-panel button {
+  background-color: #13298b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.control-panel button:hover {
+  background-color: #3967ab;
+}
+
+.output {
+  margin-top: 20px;
+  min-height: 20px;
+  color: #333;
+}
